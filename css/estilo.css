@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.banner {
+  margin-top: 0px;
+}
+
+.titulo-section {
+  text-align: center;
+  color: #414143;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.produto {
+  margin: 30px 0;
+}
+
+.img-produto {
+  margin-top: 20px;
+}
+
+.img-sobre {
+  margin: 15px 0;
+}
+
+.texto-sobre {
+  text-align: center;
+  color: #000000
+}
+
+.sobre {
+  background: url(../images/sobre_fundo.jpg);
+  padding: 0 0 35px;
+}
+
+.localizacao {
+  margin: 50px 0;
+}
+
+.endereco {
+  background: url(../images/mapa.jpg);
+  min-height: 410px;
+  margin-bottom: 20px;
+}
+
+.end-home {
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+
+.icon-localiza {
+  float: left;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+
+
+
+/*********************MENU***********************/
+
+.navbar-metal {
+  background: #fff;
+  color: #111111;
+}
+
+.navbar {
+  border-radius: 0px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.navbar-nav {
+  margin-top: 30px !important;
+}
+
+.navbar-metal .navbar-nav > li > a {
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 5px !important;
+}
+
+.navbar-metal .navbar-nav > li > a:hover,
+.navbar-metal .navbar-nav > li > a:focus,
+.navbar-metal .navbar-nav > li.active > a{
+  color: #111111;
+  border-bottom: 3px solid #fec311 !important;
+  background: transparent;
+}
+
+
+/**************************************************/
+
+/*********************FOOTER*********************/
+
+footer {
+  background: #fec311;
+  color: #000;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+.end-footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/**************************************************/
